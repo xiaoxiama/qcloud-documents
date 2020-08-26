@@ -1,6 +1,6 @@
 ## MQTT 协议说明
 
-目前物联网通信支持 MQTT 标准协议接入(兼容3.1.1版本协议)，具体的协议请参见 [MQTT 3.1.1](http://mqtt.org/?spm=5176.doc30540.2.3.BU9nwt) 协议文档。
+目前物联网通信支持 MQTT 标准协议接入(兼容3.1.1版本协议)，具体的协议请参见 [MQTT 3.1.1](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718028) 协议文档。
 
 ### 和标准 MQTT 区别
 
@@ -201,4 +201,3 @@ devicePsk) throws Exception {
 7. 将 clientid 填入到 MQTT 协议的 clientid 字段。
 8. 将 username 填入到 MQTT 的 username 字段。
 9. 将 password 填入到 MQTT 的 password 字段，向密钥认证的域名与端口处发送MqttConnect信息即可接入到物联云通信平台。
-
